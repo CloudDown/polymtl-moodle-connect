@@ -7,7 +7,7 @@ export type ClientName = "opencode" | "claude";
 
 /** A stable path: the downloaded release ZIP can safely be deleted afterwards. */
 export function installedBinaryPath(home = homedir(), platform = process.platform): string {
-  return join(home, ".moodle-ws-mcp", platform === "win32" ? "moodle-ws-mcp.exe" : "moodle-ws-mcp");
+  return join(home, ".polymtl-moodle-connect", platform === "win32" ? "polymtl-moodle-connect.exe" : "polymtl-moodle-connect");
 }
 
 export function installBinary(source: string, destination = installedBinaryPath()): string {
