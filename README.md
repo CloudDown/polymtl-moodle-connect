@@ -1,5 +1,11 @@
 # PolyMoodle Connect
 
+> **English** — PolyMoodle Connect is an MCP (Model Context Protocol) server that lets OpenCode or Claude Desktop read your Moodle courses, assignments, deadlines and grades. No Node.js or npm needed.
+>
+> **Install:** macOS/Linux: `curl -fsSL https://raw.githubusercontent.com/CloudDown/polymtl-moodle-connect/main/install.sh | bash` — Windows (PowerShell): `irm https://raw.githubusercontent.com/CloudDown/polymtl-moodle-connect/main/install.ps1 | iex`. The wizard asks for your Moodle URL (default `https://moodle.polymtl.ca`, any Moodle works) and credentials, then configures your app.
+>
+> *Not an official Polytechnique Montréal tool.* The rest of this README is in French.
+
 Consulte tes cours Moodle avec OpenCode ou Claude Desktop. **Une commande, pas
 de Node.js ni de npm à installer.**
 
